@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Amiri';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./assets/fonts/Amiri-Regular.ttf') format('truetype'); /* Placeholder URL */
+  }
+
+  @font-face {
+    font-family: 'Amiri';
+    font-style: italic;
+    font-weight: 400;
+    src: url('./assets/fonts/Amiri-Italic.ttf') format('truetype'); /* Placeholder URL */
+  }
+
+  @font-face {
+    font-family: 'Amiri';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./assets/fonts/Amiri-Bold.ttf') format('truetype'); /* Placeholder URL */
+  }
+
+  @font-face {
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./assets/fonts/Cairo-Regular.ttf') format('truetype'); /* Placeholder URL */
+  }
+
+  @font-face {
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./assets/fonts/Cairo-Bold.ttf') format('truetype'); /* Placeholder URL */
+  }
+
+  body {
+    @apply font-sans text-text bg-background;
+  }
+}
